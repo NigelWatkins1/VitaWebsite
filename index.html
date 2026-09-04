@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>ATV Power — Powertrain Pages Preview</title>
+<meta name="description" content="Internal preview of the ATV Power electric powertrain product pages.">
+<style>
+  :root{
+    --ink:#ffffff; --ink-2:#f4f4f4; --ink-3:#ffffff;
+    --white:#171a20; --mist:#5c5e62; --mist-2:#77797e;
+    --volt:#004750; --volt-2:#00323a; --volt-dim:rgba(0,71,80,.07);
+    --line:#e0e1e2; --line-soft:#ececed; --amber:#a4741a;
+    --radius:6px; --max:1180px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--ink); color:var(--white);
+    font-family:"Gotham SSm A","Gotham SSm B",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  header.top{padding:96px 0 8px}
+  .eyebrow{
+    font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--volt);font-weight:600;margin:0 0 18px
+  }
+  h1{
+    font-size:clamp(2.1rem,5vw,3.4rem);font-weight:600;letter-spacing:-.02em;
+    line-height:1.06;margin:0 0 20px
+  }
+  .lead{font-size:1.06rem;line-height:1.6;color:var(--mist);max-width:56ch;margin:0}
+  .grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
+    padding:56px 0 8px
+  }
+  .card{
+    display:flex;flex-direction:column;
+    background:var(--ink-2);border:1px solid var(--line);border-radius:var(--radius);
+    padding:30px 28px 26px;text-decoration:none;color:inherit;
+    transition:border-color .18s ease, transform .18s ease;
+  }
+  .card:hover{border-color:var(--volt);transform:translateY(-2px)}
+  .card .k{
+    font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--mist-2);margin-bottom:14px
+  }
+  .card h2{font-size:1.32rem;font-weight:600;letter-spacing:-.02em;margin:0 0 10px}
+  .card p{font-size:.94rem;line-height:1.55;color:var(--mist);margin:0 0 22px;flex:1}
+  .card .go{font-size:.9rem;font-weight:600;color:var(--volt)}
+  .note{
+    margin:56px 0 0;padding:22px 24px;
+    background:var(--volt-dim);border-left:2px solid var(--volt);border-radius:2px
+  }
+  .note p{margin:0;font-size:.9rem;line-height:1.6;color:var(--mist)}
+  .note strong{color:var(--white);font-weight:600}
+  footer{
+    margin-top:64px;padding:28px 0 72px;border-top:1px solid var(--line-soft);
+    font-size:.82rem;color:var(--mist-2)
+  }
+  @media(max-width:900px){ .grid{grid-template-columns:1fr} header.top{padding-top:64px} }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <p class="eyebrow">ATV Power · Internal preview</p>
+      <h1>Powertrain pages</h1>
+      <p class="lead">Three product pages for review. Each is a complete, self-contained page — navigation, renders and interactive sections all work as they would on the live site.</p>
+    </header>
+
+    <div class="grid">
+      <a class="card" href="./115e.html">
+        <div class="k">Outboard</div>
+        <h2>115E Outboard</h2>
+        <p>115hp continuous, 155hp peak. Product page with 3D tour, on-page configurator, launch-partner vessels, specifications and a fuel-savings calculator.</p>
+        <span class="go">View page →</span>
+      </a>
+      <a class="card" href="./115e-inboard.html">
+        <div class="k">Inboard</div>
+        <h2>115E Inboard</h2>
+        <p>120hp continuous, 161hp peak. GEN2 motorskid with a scroll-driven drive stage, Mercury Alpha and Bravo 3 compatibility, configurator and specifications.</p>
+        <span class="go">View page →</span>
+      </a>
+      <a class="card" href="./75e-jet.html">
+        <div class="k">Jet</div>
+        <h2>75E Jet</h2>
+        <p>80hp continuous, 160hp peak. Complete electric jet propulsion system for RIB tenders, compact workboats and autonomous platforms.</p>
+        <span class="go">View page →</span>
+      </a>
+    </div>
+
+    <div class="note">
+      <p><strong>Preview, not a launch.</strong> Vessel performance figures in the launch-partner panels are preliminary and have not been confirmed with the builders. Partner and certification logos are shown pending usage clearance. Enquiry forms are not yet wired to a mailbox or CRM.</p>
+    </div>
+
+    <footer>
+      ATV Power — internal preview. Please don't circulate outside the company.
+    </footer>
+  </div>
+</body>
+</html>
