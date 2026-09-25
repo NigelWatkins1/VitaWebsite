@@ -523,6 +523,10 @@
   .drop-item p{color:#3a3d42}
   .drop-item .bimg img[src^="data:image/webp"]{object-fit:contain;border-radius:0}
   @media(max-width:1100px){.drop-aside{border-top:0}}
+  /* LinkedIn in the footer (25 Sep 2026) */
+  .li-link{display:inline-flex;align-items:center;color:var(--mist);transition:color .2s}
+  .li-link:hover{color:var(--volt)}
+  .mh-foot .li-link{vertical-align:middle;margin-left:10px}
 </style>
 </head>
 <body>
@@ -668,7 +672,7 @@
               <a href="https://atv-power.com/careers">Careers</a>
               <a href="https://atv-power.com/service">Service</a>
               <a href="https://atv-power.com/portal">Customer Portal</a>
-              <a href="https://atv-power.com/news">Media</a>
+              <a href="./news.html">News</a>
         </div>
       </div>
     </div>
@@ -954,7 +958,7 @@
       </div>
     </div>
     <p class="reveal" style="text-align:center;margin-top:56px;color:var(--mist);font-size:1.02rem">
-      Interested boat builder? <a href="mailto:enquire@atv-power.com?subject=115E%20Builder%20Enquiry" style="color:var(--volt);font-weight:600;border-bottom:1px solid rgba(0,71,80,.35);padding-bottom:2px">Get in touch →</a>
+      Interested boat builder? <a href="mailto:enquiries@atv-power.com?subject=115E%20Builder%20Enquiry" style="color:var(--volt);font-weight:600;border-bottom:1px solid rgba(0,71,80,.35);padding-bottom:2px">Get in touch →</a>
     </p>
     <div class="trusted reveal">
       <span class="tb-label">Trusted by</span>
@@ -1293,18 +1297,19 @@
         <div>
           <b>Company</b>
           <a href="https://atv-power.com">ATV Power</a>
-          <a href="https://atv-power.com/news">News</a>
+          <a href="./news.html">News</a>
           <a href="https://atv-power.com/about">About</a>
         </div>
         <div>
           <b>Contact</b>
-          <a href="mailto:enquire@atv-power.com">enquire@atv-power.com</a>
+          <a href="mailto:enquiries@atv-power.com">enquiries@atv-power.com</a>
           <a href="#enquiry">Product Enquiries</a>
         </div>
       </div>
     </div>
     <div class="legal">
       <span>© ATV Power 2026. All Rights Reserved. ATV and related trademarks, names, and logos are the property of ATV Power.</span>
+      <a class="li-link" href="https://www.linkedin.com/company/atv-power/" target="_blank" rel="noopener noreferrer" aria-label="ATV Power on LinkedIn" title="ATV Power on LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
     </div>
   </div>
 </footer>
